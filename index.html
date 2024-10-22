@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kino</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <!-- Навигация батырмалары -->
+    <nav>
+        <div class="kino-logo">
+            <a href="index.html">
+                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTY0IiBoZWlnaHQ9IjM2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNTguODU5IDE4YzAtNS44ODkgMi45NTQtMTAuNiA4LjI4MS0xMC42IDUuMzI4IDAgOC4yODEgNC43MTEgOC4yODEgMTAuNiAwIDUuODktMi45NTQgMTAuNi04LjI4IDEwLjYtNS4zMjggMC04LjI4Mi00LjcxLTguMjgyLTEwLjZabTguMjgxIDcuNjZjMi4wNzIgMCAyLjk1NC0zLjUzNCAyLjk1NC03LjY1MiAwLTQuMTItLjg4OS03LjY1Mi0yLjk1NC03LjY1Mi0yLjA2NSAwLTIuOTU0IDMuNTMzLTIuOTU0IDcuNjUyLS4wMDcgNC4xMTguODgyIDcuNjUyIDIuOTU0IDcuNjUyWk0zLjg0MyA3Ljd2NS41OTZoLjI5NEw3Ljk4IDcuN2g1LjMybC03LjA5OCA2LjQ3NC4yOTQuMjkzTDE5LjUxIDcuNjkzdjQuNzExTDcuOTczIDE2LjUyM3YuMjkybDExLjUzNy0xLjAyOHY0LjQxOUw3Ljk3MyAxOS4xNzh2LjI5M2wxMS41MzcgNC4xMTh2NC43MTJMNi40OTYgMjEuNTI2bC0uMjk0LjI5MyA3LjA5OCA2LjQ3NEg3Ljk4bC0zLjg0My01LjU5NmgtLjI5NHY1LjU5NkgwVjcuNjg2aDMuODQzVjcuN1ptMTkuMjMgMEgyOC4xbC0uMjk0IDEyLjM2M2guMjk0TDM0LjAxNSA3LjdoNC40Mzh2MjAuNjA4aC01LjAyNmwuMjk0LTEyLjM2NGgtLjI5NEwyNy41MSAyOC4zMDloLTQuNDM4VjcuN1ptMjMuOTU1IDBoLTUuMDI2djIwLjYwOGg1LjAyNnYtOS4xM2g0LjEzN3Y5LjEzaDUuMDI2VjcuN2gtNS4wMjZ2Ny45NTJoLTQuMTM3VjcuN1ptNDUuMjUgMGgtMTQuMTl2MjAuNjA4aDUuMDI3VjExLjIzM2g0LjEzN3YxNy4wNzVoNS4wMjZWNy43Wm0yLjY2IDEwLjNjMC01Ljg4OSAyLjk1NC0xMC42IDguMjgyLTEwLjYgNS4zMiAwIDguMjgxIDQuNzExIDguMjgxIDEwLjYgMCA1Ljg5LTIuOTU0IDEwLjYtOC4yODEgMTAuNi01LjMyIDAtOC4yODItNC43MS04LjI4Mi0xMC42Wm04LjI4MiA3LjY2YzIuMDcyIDAgMi45NTQtMy41MzQgMi45NTQtNy42NTIgMC00LjEyLS44ODktNy42NTItMi45NTQtNy42NTItMi4wNzIgMC0yLjk1NCAzLjUzMy0yLjk1NCA3LjY1MiAwIDQuMTE4Ljg4MiA3LjY1MiAyLjk1NCA3LjY1MlpNMTE5LjE4NyA3LjdoLTUuMDI2djIwLjYwOGg0LjQzOGw1LjkxNi0xMi4zNjRoLjI5NGwtLjI5NCAxMi4zNjRoNS4wMjZWNy43aC00LjQzOGwtNS45MTYgMTIuMzYzaC0uMjk0bC4yOTQtMTIuMzYzWm0yMy42NjkgMTMuNTQxIDQuNzMyLjU4NWMtLjg4OSA0LjEyLTIuOTU0IDYuNzc0LTcuMzY0IDYuNzc0LTUuMzIgMC04LjAxNi00LjcxLTguMDE2LTEwLjYgMC01Ljg4OSAyLjY4OS0xMC42IDguMDE2LTEwLjYgNC4zMTcgMCA2LjQ3NSAyLjY0OSA3LjM2NCA2LjQ3NWwtNC43MzIgMS4xNzdjLS4yOTQtMi4wNjMtMS4xNTUtNC43MS0yLjYzMi00LjcxLTEuNzcxIDAtMi42ODkgMy41MzMtMi42ODkgNy42NTEgMCA0LjA5LjkxOCA3LjY1MiAyLjY4OSA3LjY1MiAxLjQ0OS4wMTUgMi4zMy0yLjM0MSAyLjYzMi00LjQwNFptMTEuODMtMTMuNTRoLTQuNzMydjIwLjYwN2g0LjczMnYtOS4xM2guMjk0bDMuNTQ5IDkuMTNIMTY0bC01LjE3Ny0xMC42TDE2My44NDkgNy43aC01LjAyNmwtMy44NDMgOS4xM2gtLjI5NFY3LjdaIiBmaWxsPSIjZmZmIi8+PC9zdmc+Cg==" alt="">
+            </a>
+        </div>
+        <div class="nav-box">
+            <a class="silteme-korap" href="">
+                <img src="https://avatars.mds.yandex.net/get-bunker/61205/7230b4c753cc9d0928a4802b1ae08ccf7cb7d245/orig" alt=""> 
+                Онлайн кинотеатр    
+            </a>    
+            <a class="silteme-korap" href="">
+                <img src="https://kinopoisk-ru.clstorage.net/q1z4H9249/2d0d8cvFX/bVtq3y4ne_HzSoi9sz6dj-dNn1k8CLNGGIjgmybRl5d4DTzOnybvo_rGXYB7wYh6WdOxOs1cfn2guc-XYaOEVzhGc6deQjb54wKI_Ltf6ZbvIeNYRBGbG2iU6DbmSQdOsLmgUi-WHsL3_jj1OsTVdnyz8EfgQXvgHPVn-nyeZV9hxy8Sj4c7CXsqrOVSGmELrmGfUThww7fk7KxGSn2TwtSdOCYHmpoy6-s0DU64_SZ0qzgyUOmLiNHF_978bvGvmU_H6lvX06XLEpzp1qJNq7q5y2EkkEcbYNCUwi6pv97IwaBGmwqOLjdzBBkqGCEezKuoZrjtE3TNSVMuIEoFZzkvGwKHQzcFs75QoeoO-cumMUuNzAyTv4CkVC6C6eMeVA0wWmf-GoKTH0TRgijJBnwP6Cq4AU-kQTmTFiCOAY-xB4-y2zOfYR8SMMlyrrH_AjkjBUjY90fo-NAuOpkvdmCx-BLr4vKiY8NUmVI0dd5QO9Q28BHH3KXxe5rk8hHfBQ_rHqcvT_3PnswltlLB_4LBP2GcjI8HsKz8hopRnyLIVdhKf_Ji2neLiJlSII1WlH-INhwhF3Tt8fOmbBLx79knC3aLiyOhI9q0wXqWlUdCce8FHKTHHxyo-OJe1Q_WrI2k3ufiajLv5zhJvvA5ElzDbCr4qX-UKSmLihyWDSOJ16Pqc5NLDUe6QFE-LjHb5kFfQYh8F0N05PwGvkGvokCRbOIvHhrOwwssxRY0RWoUD7jmHNEXhNEhf1q8jmXXKSdH7gN_Z3VHDiQlao4xu4K165FIVPOvMNgwlj6t4wYUGagmL2oeNpMfsAn66EX6CMMswkBdE7jtPWvyaH5d5yW3v6pDF3f979IgIZ5uncNqxdfxMHxPb5Q85NaOaQ9uaCX46gsaQqJjyzCFkrxVkiCDJLr4xQ_47d1bmiymha8J23tuO1dLBd-uBEVOkhU3skXnwYAEw48IYNSuCmFjDmzh7MqLUrJKM7doQYL0wfaMUyAKEFE3SEmlSzKEhgGX_YOLci9P4zFzOsghUtq9swqpqxkYPIuHPOCQRqopC65gEQhau1qaok9LLJl2ePEW1JM0UtA56yS1EeMKsKplPyHT_2YbF8uVc3K8IaaePQtCUds5rDT3G3A0RBqqUROegBHYlo8udsIn4zBddnhBOmgH9N6cQUs4AXnzvgSWHUtho3cys3ujnc_OHDEmQknPimFrZTSQT8eUYCDSnt0XrmgtQGLnjroyh4PUFS6s8ZqQzxjSDCX_eIXNWyJwhlkb6XPHVouzG4UzcrBpcsLlQ7Lhq2FQsM_ztKw4_tpZxyYYjWTCIxpi2qd_MM3CYEmO3MuIrsS9nwzVkf_CMJ4NF9Wng7JfJ6O91zKEIT5iaftmxe_puHw3izhwPM46BduCgNEscq_uPgr_fxi9zhh17txDjM6IQXOYMRFLVvyWlWOF3-Pm95P39X8iUF16AqX79qHb-VS8o_P0pLiO0mmrfhwdPEKjhiKK--8EnaIseY7Yq2Qi_NkHLDXh5yaMevUTET_Der8He3nvTki9bpKdk_Z9t9FsyE-f8KTYhp7xnyJsNXS-b2aC9g8ThM168Pm-XDsYdrDRP5jtrcOaNPrp12mTe957z3udRy7Q6briFZOGxb-RmCC394wgZMJa8bvSCI0w6ntSxjr3wzARrhSB8mS3jMbsHf-YLRGfDlwi-UN9x-9uH3NXnbN-tPHm1mFDzl1PneR4A2sI9LjCTqkPUhCB8K4T1u6if-_k6ZpgLf6gwyDObMUXoAUdX3rk6umrNSsLFqePs6WvAghlIk51w-7RszWktBurpDjUWiodr0KsYcg-f74S-qdnNJUyQMVyTD8k_mxZx6hZxYcOlIKRGxFDj3Irp_uZv34YJXLWPcPq7cvBQFC_u0AsWAqufd-GgBlEWheGTiYjD-ARAkxVVtB3uAoQbXsMWZHLKvT-zUtlLxN-Q3PXpVcKwGE6Fo0TDmVPGciAZ3N0bHzqcgULGpzl9EpzNnbaE6vMif5U7SoEfxQOFKEfhG3hF0Y0av0vcS_nJlvH9znzgrD5PtZlL0r5qxWgiKsXeBzERiptByL8WXCua4bmirOzZMWCQE0qXP-w9mwtd6iB6S8-hE61V7l7m26vwych51rQLapCQZuS3U81bLCrhxDY3GZy3d-CAK3A2n8WGiaPO1RpBpwpJti7WKJo4aMktVEHuihyAY_p8-_2C7tTLTNW1H3q3vEb4lG70UiAP_scgJTmqkmHflitVKobWiqGC2es9abURWbEvwjiYFEPUDmRJ_YI3h1LnaMz5gN_mxVbOoT5dpJ124atd4VguGd3xCTM7n5h6-JgYUSSIyZmDgefHEEqmMkm5MuYvhBFd7RRkRfOkJ79P2kTi2Zb28_909Y03Toa-XvmVZuJgEibY4gc1H4K5b-aRBW0cm9WYlo7qyCFSnTdZuzLJNp8oYfQodFLFozelW91kwP-x0vTddda5JXiRr1Pyi2n0SRQRy80OCwuhm1P5pClON7vurZKm-cwDYJ4sfZYjyByCNHnqLkh914gJtVLnatr_tPPLw07ypChKrIxF2ap5404cAtnsKzkVgLpa1pAQfz-LyquvmP30BUuaAECDNv03sRdl4w1FYcmDEpJu5mD92K70x_1K0rk3cYmZQMWIVs5qESPzxAssJ6y6U-SSGFI0n_mTsKT86CNIrC1EnzP4L7QKWMMqeVjCqxadZslH58WD1PbNR82oOUeArEX8m2T0bh8i6P44FyCrulb7sSZ2Ea7PvoWB--8kTJYQe7sk_ACYEWf9LHBC5aonmmznbOrAnc7Y5l7ujRZqh69k3pt42mseHNjMGyg6rpJ2-pUJVyyN-Zilh8fIGE6wLWeGMsEToSdfwxBka9OYHb9g4Gzc24zj0NJy8IQOeqWgVv-5WN1kNDHBxyQ_GYWFUt6jNXMZisKwtYjA6SRWsBNHhRD-K6UTb9MgUHs" alt="">
+                Смотреть мультики
+            </a>
+           <div class="box">
+               <input class="input" type="search" placeholder="фильмы сериалы персоны">
+               <button class="input-btn">
+                    <img width="20" src="images/search.svg" alt="">
+               </button>
+           </div>
+        </div>
+        <div class="right">
+            <a class="watch" href="">Смотреть кино бесплатно</a>
+            <a href="">войти</a>
+        </div>
+    </nav>
+</header>
+<!-- Жанама панель -->
+<div class="bas">
+    <aside>
+        <nav>
+            <ul>
+                <li>
+                    <img src="https://avatars.mds.yandex.net/get-bunker/61205/a7775b8cfeb0024b6fb4fe0ee125e284b8ac8a1f/orig" alt="">
+                    Главная
+                </li>
+                <li>
+                    <img src="https://avatars.mds.yandex.net/get-bunker/994123/9589a3fd442af2ca26c14e6d6e539d30399eb29c/orig" alt="">
+                    Онлайн кинотеатр
+                </li>
+                <li>
+                    <img src="https://avatars.mds.yandex.net/get-bunker/994123/bf58cac09c0da90eba5358d5c37abe9c689103c5/orig" alt="">
+                    фильмы
+                </li>
+                <li>
+                    <img src="https://avatars.mds.yandex.net/get-bunker/120922/c5487daa04b8f27021f64ab83b20a6459c1819ff/orig" alt="">
+                    Сериалы
+                </li>
+                <li>
+                    <img src="https://avatars.mds.yandex.net/get-bunker/120922/82868ff1b7f624482c63a0ac589021290007313e/orig" alt="">
+                    Телеконалы
+                </li>
+                <li>
+                    <img src="https://avatars.mds.yandex.net/get-bunker/998550/ea2cab3a0f1a40eecc268f047c4712d1cd2d2a4d/orig" alt="">
+                    Спорт
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <!-- Негізгі бөлік -->
+    <main>
+        <section class="afisha">
+            <video class="afisha-img" autoplay loop>
+                <source src="images/john.mp4" type="video/mp4">
+            </video>
+            <div class="afisha-content">
+                <h2 class="afisha-title">Гарри Поттер</h2>
+                <p>Гениальный психолог или манипулятор? Один из самых популярных российских сериалов</p><br>
+                <p><b>В главных ролях:</b>Максим Матвеев, Игорь Костолевский, Светлана Иванова, Виктория Маслова, Роман Маякин, Владислав Тирон, Ангелина Стречина</p><br>
+                <button class="smotret-btn">
+                    <img src="https://avatars.mds.yandex.net/get-bunker/61205/7230b4c753cc9d0928a4802b1ae08ccf7cb7d245/orig" alt="">   
+                    Смотреть
+                </button><br><br>
+            </div>
+        </section>
+        <!-- Кино тізімдері (flex-row) -->
+        <section class="kino">
+            <h1>Билеты в кино ></h1><br>
+            <div class="kino-box">
+                <div class="dino">
+                    <img class="kino-suret" src="//avatars.mds.yandex.net/get-kinopoisk-image/4486362/f6768a3b-39c7-4436-bb94-f7c74d907b6a/150x225" alt="">
+                    <h4>Хеллбой</h4>
+                    <p> ужасы, боевик</p>
+                </div>
+                <div class="dino">
+                    <img class="kino-suret" src="//avatars.mds.yandex.net/get-kinopoisk-image/4486454/3ff2376a-ea2d-412f-803a-d1bffbb4d4ca/150x225" alt="">
+                    <h4>Не говори никому</h4>
+                    <p>триллер, драма</p>
+                </div>
+                <div class="dino">
+                    <img class="kino-suret" src="//avatars.mds.yandex.net/get-kinopoisk-image/1898899/ea9b46e9-1b6e-4547-89e9-d0bab1b7422f/150x225" alt="">
+                    <h4>Субстанция</h4>
+                    <p>ужасы, драма</p>
+                </div>
+                <div class="dino">
+                    <img class="kino-suret"  src="//avatars.mds.yandex.net/get-kinopoisk-image/10703959/70cec61c-52db-4b6b-bc9e-8e4e2020553c/150x225" alt="">
+                    <h4>Трансформеры: Начало</h4>
+                    <p> мультфильм, фантастика, фэнтези, боевик, приключения, семейный</p>
+                </div>
+                <div class="dino">
+                    <img class="kino-suret"  src="//avatars.mds.yandex.net/get-kinopoisk-image/4486362/f6768a3b-39c7-4436-bb94-f7c74d907b6a/150x225" alt="">
+                    <h4>Хеллбой</h4>
+                    <p> ужасы, боевик</p>
+                </div>
+                <div class="dino">
+                    <img class="kino-suret"  src="//avatars.mds.yandex.net/get-kinopoisk-image/4486454/3ff2376a-ea2d-412f-803a-d1bffbb4d4ca/150x225" alt="">
+                    <h4>Не говори никому</h4>
+                    <p>триллер, драма</p>
+                </div>
+                <div class="dino">
+                    <img class="kino-suret"  src="//avatars.mds.yandex.net/get-kinopoisk-image/1898899/ea9b46e9-1b6e-4547-89e9-d0bab1b7422f/150x225" alt="">
+                    <h4>Субстанция</h4>
+                    <p>ужасы, драма</p>
+                </div>
+                <div class="dino">
+                    <img class="kino-suret" src="//avatars.mds.yandex.net/get-kinopoisk-image/10703959/70cec61c-52db-4b6b-bc9e-8e4e2020553c/150x225" alt="">
+                    <h4>Трансформеры: Начало</h4>
+                    <p> мультфильм, фантастика, фэнтези, боевик, приключения, семейный</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+</body>
+</html>
